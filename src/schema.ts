@@ -21,3 +21,7 @@ export const tarotCards = pgTable('thot_tarot', {
   keywords: text('keywords').array(),
   revelation: text('revelation'),  
 });
+
+
+
+

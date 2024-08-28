@@ -1,0 +1,29 @@
+{
+  "name": "thot-tarot-api",
+  "version": "1.0.0",
+  "description": "This project is a RESTful API for managing a Thot Tarot card database. It's built with TypeScript, Express.js, and Drizzle ORM, connecting to a PostgreSQL database. 🚀",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/api.js",
+    "dev": "nodemon src/api.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.4",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.1",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

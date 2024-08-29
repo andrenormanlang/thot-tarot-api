@@ -2,7 +2,6 @@ import http from 'http';
 import * as dotenv from 'dotenv';
 import app from './src/app';
 
-// Initialize dotenv so it reads our `.env`-file
 dotenv.config();
 
 // Read port to start server on from `.env`, otherwise default to port 3000

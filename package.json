@@ -2,7 +2,7 @@
   "name": "thot-tarot-api",
   "version": "1.0.0",
   "description": "This project is a RESTful API for managing a Thot Tarot card database. It's built with TypeScript, Express.js, and Drizzle ORM, connecting to a PostgreSQL database. 🚀",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
     "start": "node dist/server.js",
     "dev": "nodemon --exec ts-node server.ts",
